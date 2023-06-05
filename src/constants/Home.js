@@ -1,19 +1,22 @@
-const hero = {
+export const hero = {
   title: "Welcome",
-  description: "",
+  description:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus deleniti quas minus. Consequuntur natus exercitationem aut omnis nulla sit, voluptas fuga quibusdam doloribus minima! Magni cum quis ex impedit porro.",
   secondarySections: [
     {
       title: "Boost Your Business Online",
-      description: "",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus deleniti quas minus. Consequuntur natus exercitationem aut omnis nulla sit, voluptas fuga quibusdam doloribus minima! Magni cum quis ex impedit porro.",
     },
     {
       title: "Unleash the Potential of the Web",
-      description: "",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus deleniti quas minus. Consequuntur natus exercitationem aut omnis nulla sit, voluptas fuga quibusdam doloribus minima! Magni cum quis ex impedit porro.",
     },
   ],
 };
 
-const about = {
+export const about = {
   aboutSection1: {
     title: "About Me",
     description: "",
