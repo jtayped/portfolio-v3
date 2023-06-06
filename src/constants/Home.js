@@ -18,7 +18,7 @@ export const hero = {
 
 export const about = {
   aboutSection1: {
-    title: "About Me",
+    title: "About Us",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ratione est consequatur ab veritatis nesciunt labore ea omnis aliquid in vel dolorum autem laboriosam temporibus amet fugiat quis adipisci numquam?",
   },
@@ -26,7 +26,7 @@ export const about = {
     title: "My Skills",
     skills: [
       {
-        skill: "JS",
+        skill: "Java",
         spanX: 0,
         spanY: 0,
       },
@@ -36,24 +36,19 @@ export const about = {
         spanY: 0,
       },
       {
-        skill: "SEO",
+        skill: "JavaScript",
+        spanX: 1,
+        spanY: 0,
+      },
+      {
+        skill: "GitHub",
         spanX: 0,
         spanY: 1,
       },
       {
-        skill: "Java",
-        spanX: 1,
-        spanY: 0,
-      },
-      {
-        skill: "C++",
+        skill: "SEO",
         spanX: 0,
-        spanY: 0,
-      },
-      {
-        skill: "Python",
-        spanX: 1,
-        spanY: 0,
+        spanY: 1,
       },
       {
         skill: "CSS",
@@ -61,14 +56,14 @@ export const about = {
         spanY: 1,
       },
       {
-        skill: "GitHub",
+        skill: "Python",
         spanX: 1,
         spanY: 0,
       },
       {
         skill: "React",
         spanX: 1,
-        spanY: 1,
+        spanY: 0,
       },
     ],
   },
