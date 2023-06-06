@@ -1,3 +1,6 @@
+import BG1 from "../assets/hero/bg1.jpg";
+import BG2 from "../assets/hero/bg2.jpg";
+
 export const hero = {
   title: "Welcome",
   description:
@@ -5,11 +8,13 @@ export const hero = {
   secondarySections: [
     {
       title: "Boost Your Business Online",
+      image: BG1,
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus deleniti quas minus. Consequuntur natus exercitationem aut omnis nulla sit, voluptas fuga quibusdam doloribus minima! Magni cum quis ex impedit porro.",
     },
     {
       title: "Unleash the Potential of the Web",
+      image: BG2,
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus deleniti quas minus. Consequuntur natus exercitationem aut omnis nulla sit, voluptas fuga quibusdam doloribus minima! Magni cum quis ex impedit porro.",
     },
