@@ -10,7 +10,7 @@ import { pages } from "../constants/Header";
 
 const Header = () => {
   return (
-    <header className="sticky top-0 w-full flex justify-between bg-white border-b-[1px] border-black">
+    <header className="sticky top-0 w-full flex justify-between bg-white border-b-[1px] border-black h-[7vh] lg:h-[10vh]">
       <Link to="/" className="px-6 py-4 border-r-[1px] border-black">
         <p className="text-2xl">LOGO</p>
       </Link>
@@ -20,7 +20,7 @@ const Header = () => {
           <a
             key={index}
             href={page.link}
-            className="h-full px-6 py-4 hover:px-7 border-l-[1px] border-black flex items-center font-primary transition-all duration-200"
+            className="h-full px-6 py-4 border-l-[1px] border-black flex items-center font-primary hover:bg-black hover:text-white transition-all duration-200"
           >
             {page.title.toUpperCase()}
           </a>

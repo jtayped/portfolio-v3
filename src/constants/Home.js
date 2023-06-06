@@ -19,7 +19,8 @@ export const hero = {
 export const about = {
   aboutSection1: {
     title: "About Me",
-    description: "",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ratione est consequatur ab veritatis nesciunt labore ea omnis aliquid in vel dolorum autem laboriosam temporibus amet fugiat quis adipisci numquam?",
   },
   aboutSection2: {
     title: "My Skills",

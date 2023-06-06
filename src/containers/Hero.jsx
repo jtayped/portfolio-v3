@@ -10,7 +10,7 @@ import { FiMousePointer, FiArrowRight } from "react-icons/fi";
 
 const Hero = () => {
   return (
-    <main className="flex flex-col lg:flex-row lg:justify-between items-center h-[750px]">
+    <main className="flex flex-col lg:flex-row lg:justify-between items-center h-[93vh] lg:h-[90vh]">
       <div className="p-10 sm:p-[50px] lg:p-[100px] 2xl:p-[200px] h-full border-black border-b-[1px] flex flex-col justify-center">
         <h1 className="text-6xl xl:text-8xl font-normal sm:font-bold">
           {hero.title}
