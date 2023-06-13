@@ -9,7 +9,7 @@ import { BsFillStarFill } from "react-icons/bs";
 
 const Testimonials = () => {
   return (
-    <section>
+    <section id="testimonials">
       <ul className="flex flex-col md:grid md:grid-cols-3 md:items-start md:border-black md:border-b-[1px]">
         {testimonials.map((testimonial, index) => (
           <li
@@ -22,7 +22,7 @@ const Testimonials = () => {
               <img
                 src={testimonial.image}
                 className="h-14 aspect-square rounded-full object-cover"
-                alt=""
+                alt={testimonial.name}
               />
               <div className="flex flex-col">
                 <h3 className="text-2xl">{testimonial.title}</h3>{" "}

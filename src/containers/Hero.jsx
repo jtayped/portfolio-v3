@@ -9,7 +9,7 @@ import { FiMousePointer } from "react-icons/fi";
 
 const Hero = () => {
   return (
-    <main className="flex flex-col lg:flex-row lg:justify-between items-center xl:h-[760px]">
+    <main className="flex flex-col lg:flex-row lg:justify-between items-center xl:h-[760px]" id="hero">
       <div className="p-6 sm:p-[25px] lg:p-[50px] 2xl:p-[200px] lg:h-full border-black border-b-[1px] flex flex-col items-center justify-center xl:w-[1500px]">
         <div>
           <h1 className="text-6xl xl:text-8xl">{hero.title}</h1>

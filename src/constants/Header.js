@@ -1,14 +1,18 @@
 export const pages = [
   {
     title: "About",
-    link: "/about",
+    link: "#about",
+  },
+  {
+    title: "Testimonials",
+    link: "#testimonials",
   },
   {
     title: "Portfolio",
-    link: "/portfolio",
+    link: "#portfolio",
   },
   {
     title: "Contact",
-    link: "/contact",
+    link: "#contact",
   },
 ];

@@ -3,7 +3,12 @@ import BG2 from "../assets/hero/bg2.jpg";
 
 import { Juan, Vithanco, Walter } from "../assets/testimonials";
 
-import { GPTArticles, Solitaire, Portfolio } from "../assets/portfolio";
+import {
+  GPTArticles,
+  Solitaire,
+  Portfolio,
+  OldPortfolio,
+} from "../assets/portfolio";
 
 export const hero = {
   title: "Welcome",
@@ -69,18 +74,28 @@ export const portfolio = {
       description:
         "Welcome to GPT Articles, where laughter meets knowledge! Brace yourself for a hilarious ride through AI-generated content. Sit back, relax, and prepare to be entertained as our AI-powered humor takes over the realm of information. Get ready to ROFL your way through our quirky articles!",
       image: GPTArticles,
+      link: "https://joeltaylor.business/gpt-articles/",
+    },
+    {
+      title: "Portfolio",
+      description:
+        "I recently created a solitaire game using Pygame, and I'm really pleased with the final product. I noticed that many of the solitaire games available online looked outdated and unappealing, so I decided to take matters into my own hands and recreate it as a side project. The end result is a polished and visually appealing game that I'm proud to share. ",
+      image: Portfolio,
+      link: "/",
     },
     {
       title: "Solitaire",
       description:
         "I recently created a solitaire game using Pygame, and I'm really pleased with the final product. I noticed that many of the solitaire games available online looked outdated and unappealing, so I decided to take matters into my own hands and recreate it as a side project. The end result is a polished and visually appealing game that I'm proud to share. ",
       image: Solitaire,
+      link: "https://github.com/jtayped/SolitaireV2",
     },
     {
       title: "Old Portfolio",
       description:
         "This portfolio is my latest piece, and I'm really proud of how it turned out. I decided to go for a black and white theme, which I think looks really sleek and professional. I focused a lot on the aesthetics and user interface, making sure that it's easy to navigate and visually appealing.",
-      image: Portfolio,
+      image: OldPortfolio,
+      link: "https://github.com/jtayped/jtayped.github.io",
     },
   ],
 };
