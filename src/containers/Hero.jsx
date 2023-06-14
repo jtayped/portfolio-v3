@@ -5,7 +5,7 @@ import React from "react";
 import { hero } from "../constants/Home";
 
 // Icons
-import { FiMousePointer } from "react-icons/fi";
+import { FiSend } from "react-icons/fi";
 
 // CSS
 import "./highlight.css";
@@ -31,10 +31,13 @@ const Hero = () => {
         >
           <h1 className="highlight text-6xl xl:text-8xl w-min">{hero.title}</h1>
           <p className="text-md sm:text-lg xl:w-[600px]">{hero.description}</p>
-          <button className="shadow-lg rounded-sm w-min px-2 py-1 text-lg mt-2 flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white transition-colors duration-150 outline-none">
-            <FiMousePointer size={18} />
-            Button
-          </button>
+          <a
+            href="#contact"
+            className="rounded-sm shadow-lg w-min px-2 py-1 mt-2 flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white transition-colors duration-150"
+          >
+            <FiSend />
+            Contact
+          </a>
         </motion.div>
       </div>
       <div className="grid grid-cols-2 lg:grid-rows-2 lg:grid-cols-1 w-full lg:h-full lg:w-[1000px] text-center md:text-left">
