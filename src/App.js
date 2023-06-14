@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // JSX Elements
 import { Header } from "./containers";
-import { Home, NotFound, About, Portfolio, Contact } from "./pages";
+import { Home } from "./pages";
 
 function App() {
   return (
