@@ -7,6 +7,9 @@ import { about } from "../constants/Home";
 // Images
 import MockUp from "../assets/about/mockup.png";
 
+// Icons
+import { FiSend } from "react-icons/fi";
+
 const About = () => {
   return (
     <section id="about">
@@ -15,6 +18,13 @@ const About = () => {
           <div>
             <h2 className="text-4xl">{about.title}</h2>
             <p>{about.description}</p>
+            <a
+              href="#contact"
+              className="rounded-sm w-min px-2 py-1 mt-2 flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white transition-colors duration-150"
+            >
+              <FiSend />
+              Contact
+            </a>
           </div>
           <img
             className="h-[300px] lg:h-[425px]"
