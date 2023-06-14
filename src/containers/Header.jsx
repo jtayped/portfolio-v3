@@ -1,5 +1,5 @@
 // React Util
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 // Icons
@@ -11,7 +11,17 @@ import Logo from "../assets/logo.svg";
 // Constants
 import { pages } from "../constants/Header";
 
+// JSX Components
+import SideBar from "./SideBar";
+
 const Header = () => {
+  const [isOpen, setOpen] = useState(true);
+
+  function toggleSideBar() {
+    console.log("aaa");
+    setOpen(!isOpen);
+  }
+
   return (
     <header className="sticky top-0 w-full z-10 flex justify-between bg-slate-100 border-b-[1px] border-black font-poppins">
       <Link to="/" className="px-6 py-2 border-r-[1px] border-black">
@@ -30,9 +40,14 @@ const Header = () => {
         ))}
       </nav>
 
-      <button className="p-4 border-l-[1px] border-black sm:hidden">
+      <button
+        onClick={() => toggleSideBar()}
+        className="p-4 border-l-[1px] border-black sm:hidden"
+      >
         <RxHamburgerMenu size={30} />
       </button>
+
+      {isOpen ? <SideBar toggleSideBar={toggleSideBar} /> : null}
     </header>
   );
 };
