@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ef9a5c3d.css",
+    "main.js": "/static/js/main.85344759.js",
+    "static/media/mockup.png": "/static/media/mockup.2aaedb854aea9e494f54.png",
+    "static/media/Solitaire.webp": "/static/media/Solitaire.5c29a8e6daef3920b9d6.webp",
+    "static/media/bg2.jpg": "/static/media/bg2.1face52d346113c552b2.jpg",
+    "static/media/bg1.jpg": "/static/media/bg1.b09bd9ed889e3995b187.jpg",
+    "static/media/PFP.webp": "/static/media/PFP.84df4fae0ec4c79cac15.webp",
+    "static/media/Walter.webp": "/static/media/Walter.c977c3700985d0115d36.webp",
+    "static/media/OldPortfolio.webp": "/static/media/OldPortfolio.14bb54c2d598c6fb04ff.webp",
+    "static/media/Portfolio.webp": "/static/media/Portfolio.5de755be37d5778014a3.webp",
+    "static/media/GPTArticles.webp": "/static/media/GPTArticles.06895418583d51b8f787.webp",
+    "static/media/LinkedInBackground.svg": "/static/media/LinkedInBackground.a6324be5466870343c3d25cbb03099b0.svg",
+    "static/media/logo.svg": "/static/media/logo.a15304e91b2e301dfb7753076b20fe71.svg",
+    "static/media/Vithanco.webp": "/static/media/Vithanco.2121c9dcaa413fe8941e.webp",
+    "index.html": "/index.html",
+    "static/media/Juan.webp": "/static/media/Juan.bd8185753ef6dfda43fd.webp",
+    "static/media/LinkedInNothingIcon.svg": "/static/media/LinkedInNothingIcon.8f8eb9b23973eec0f5c3be68665fd314.svg",
+    "main.ef9a5c3d.css.map": "/static/css/main.ef9a5c3d.css.map",
+    "main.85344759.js.map": "/static/js/main.85344759.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef9a5c3d.css",
+    "static/js/main.85344759.js"
+  ]
+}
