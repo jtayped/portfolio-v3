@@ -1,5 +1,6 @@
 // React Util
 import React from "react";
+import { useInView } from "react-intersection-observer";
 
 // Constants
 import { testimonials } from "../constants/Home";
@@ -7,13 +8,24 @@ import { testimonials } from "../constants/Home";
 // Icons
 import { BsFillStarFill } from "react-icons/bs";
 
+// Animations
+import { motion } from "framer-motion";
+
 const Testimonials = () => {
+  const { ref, inView } = useInView({
+    threshold: 0.5,
+    triggerOnce: true,
+  });
+
   return (
     <section id="testimonials">
       <ul className="flex flex-col md:grid md:grid-cols-3 md:items-start md:border-black md:border-b-[1px]">
         {testimonials.map((testimonial, index) => (
-          <li
+          <motion.li
+            ref={ref}
             key={index}
+            initial={{ opacity: 0 }}
+            animate={inView ? { opacity: 1 } : {}}
             className={`flex flex-col justify-center md:justify-start gap-2 border-black md:border-b-[0px] border-b-[1px] p-[25px] lg:p-[50px] md:border-black ${
               index === testimonials.length - 1 ? null : "md:border-r-[1px]"
             } md:h-full`}
@@ -28,9 +40,14 @@ const Testimonials = () => {
                 <h3 className="text-2xl">{testimonial.title}</h3>{" "}
                 <ul className="flex items-start">
                   {Array.from({ length: testimonial.stars }).map((_, index) => (
-                    <li key={index}>
+                    <motion.li
+                      initial={{ opacity: 0, y: 10 }}
+                      animate={inView ? { opacity: 1, y: 0 } : {}}
+                      transition={{ delay: 0.2 + index * 0.05 }}
+                      key={index}
+                    >
                       <BsFillStarFill className="text-yellow-400" />
-                    </li>
+                    </motion.li>
                   ))}
                 </ul>
               </div>
@@ -43,7 +60,7 @@ const Testimonials = () => {
               </p>
               <p className="font-bold">-{testimonial.details}</p>
             </div>
-          </li>
+          </motion.li>
         ))}
       </ul>
     </section>

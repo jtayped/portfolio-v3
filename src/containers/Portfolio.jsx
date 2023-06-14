@@ -7,6 +7,9 @@ import { portfolio } from "../constants/Home";
 // Icons
 import { MdOutlineOpenInNew } from "react-icons/md";
 
+// Animations
+import { motion } from "framer-motion";
+
 const Portfolio = () => {
   return (
     <section id="portfolio">
@@ -17,8 +20,10 @@ const Portfolio = () => {
           </div>
           <ul className="sm:flex sm:flex-col gap-3 mt-3 grid grid-cols-2">
             {portfolio.pieces.map((piece, index) => (
-              <li
+              <motion.li
                 key={index}
+                initial={{ opacity: 0, y: 25 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 className="flex flex-col sm:flex-row items-center sm:items-start sm:gap-2 sm:h-[225px] border-[1px] border-black sm:border-[0px]"
               >
                 <img
@@ -41,7 +46,7 @@ const Portfolio = () => {
                     Visit
                   </a>
                 </div>
-              </li>
+              </motion.li>
             ))}
           </ul>
         </div>
