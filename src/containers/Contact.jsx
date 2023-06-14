@@ -25,8 +25,10 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <div className="flex flex-col items-center justify-center gap-4 border-b-[1px] border-black text-black p-[25px] lg:p-[50px]">
-        <h2 className="text-4xl">Contact Me</h2>
+      <div className="flex flex-col items-center justify-center gap-4 border-b-[1px] border-black text-black p-[25px] lg:p-[50px] relative">
+        <h2 className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 px-4 py-2 bg-black text-white text-3xl">
+          Contact Me
+        </h2>
         <form
           onSubmit={(e) => sendMessage(e, firstName, lastName, email, message)}
           className="flex flex-col max-w-[400px]"

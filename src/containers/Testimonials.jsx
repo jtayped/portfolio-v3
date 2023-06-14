@@ -18,7 +18,10 @@ const Testimonials = () => {
   });
 
   return (
-    <section id="testimonials">
+    <section id="testimonials" className="relative">
+      <h2 className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 px-4 py-2 bg-black text-white text-3xl">
+        Testimonials
+      </h2>
       <ul className="flex flex-col md:grid md:grid-cols-3 md:items-start md:border-black md:border-b-[1px]">
         {testimonials.map((testimonial, index) => (
           <motion.li
