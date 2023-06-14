@@ -1,6 +1,5 @@
 // React Util
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 
 // Icons
 import { RxHamburgerMenu } from "react-icons/rx";
