@@ -1,14 +1,20 @@
+// Hero
 import BG1 from "../assets/hero/bg1.jpg";
 import BG2 from "../assets/hero/bg2.jpg";
 
+// Testimonials
 import { Juan, Vithanco, Walter } from "../assets/testimonials";
 
+// Portfolio
 import {
   GPTArticles,
   Solitaire,
   Portfolio,
   OldPortfolio,
 } from "../assets/portfolio";
+
+// Contact
+import PFP from "../assets/contact/PFP.webp";
 
 export const hero = {
   title: "Welcome",
@@ -98,4 +104,30 @@ export const portfolio = {
       link: "https://github.com/jtayped/jtayped.github.io",
     },
   ],
+};
+
+export const contact = {
+  title: "Contact Us",
+  description:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ratione est consequatur ab veritatis nesciunt labore ea omnis aliquid in vel dolorum autem laboriosam temporibus amet fugiat quis adipisci numquam?",
+  socials: {
+    instagram: {
+      link: "https://www.instagram.com/jtayped_/",
+      username: "jtayped_",
+      name: "Joel Taylor",
+      pfp: PFP,
+      posts: 0,
+      followers: 354,
+      following: 367,
+    },
+    linkedIn: {
+      link: "https://www.linkedin.com/in/joel-taylor-065bb8263/",
+      name: "Joel Taylor",
+      pfp: PFP,
+      location: "Mollerussa, Catalonia, Spain",
+      school: "La Salle Mollerussa",
+      followers: 4,
+      connections: 4,
+    },
+  },
 };
