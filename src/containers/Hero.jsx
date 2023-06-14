@@ -17,7 +17,7 @@ const Hero = () => {
   const animationTime = 0.25;
   return (
     <main
-      className="flex flex-col lg:flex-row lg:justify-between items-center max-h-[500px] lg:h-[500px]"
+      className="flex flex-col lg:flex-row lg:justify-between items-center max-h-[500px] lg:h-[500px] mt-[58px]"
       id="hero"
     >
       <div className="p-6 sm:p-[25px] lg:p-[50px] 2xl:p-[200px] lg:h-full border-black border-b-[1px] flex flex-col items-center justify-center xl:w-[1500px]">

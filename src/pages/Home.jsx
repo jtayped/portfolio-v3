@@ -4,6 +4,9 @@ import React from "react";
 // JSX Elements
 import { Hero, About, Testimonials, Portfolio, Contact } from "../containers";
 
+// CSS
+import "./test.css";
+
 const Home = () => {
   return (
     <div className="bg-slate-100 font-poppins">
