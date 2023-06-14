@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-v3/static/css/main.11e57718.css",
-    "main.js": "/portfolio-v3/static/js/main.f6e5fbed.js",
+    "main.js": "/portfolio-v3/static/js/main.c7c8170f.js",
     "static/media/mockup.png": "/portfolio-v3/static/media/mockup.2aaedb854aea9e494f54.png",
     "static/media/Solitaire.webp": "/portfolio-v3/static/media/Solitaire.5c29a8e6daef3920b9d6.webp",
     "static/media/bg2.jpg": "/portfolio-v3/static/media/bg2.1face52d346113c552b2.jpg",
@@ -12,16 +12,16 @@
     "static/media/Portfolio.webp": "/portfolio-v3/static/media/Portfolio.5de755be37d5778014a3.webp",
     "static/media/GPTArticles.webp": "/portfolio-v3/static/media/GPTArticles.06895418583d51b8f787.webp",
     "static/media/LinkedInBackground.svg": "/portfolio-v3/static/media/LinkedInBackground.a6324be5466870343c3d25cbb03099b0.svg",
-    "static/media/logo.svg": "/portfolio-v3/static/media/logo.a15304e91b2e301dfb7753076b20fe71.svg",
+    "static/media/logo.webp": "/portfolio-v3/static/media/logo.01724e322ae50dc31b25.webp",
     "static/media/Vithanco.webp": "/portfolio-v3/static/media/Vithanco.2121c9dcaa413fe8941e.webp",
     "index.html": "/portfolio-v3/index.html",
     "static/media/Juan.webp": "/portfolio-v3/static/media/Juan.bd8185753ef6dfda43fd.webp",
     "static/media/LinkedInNothingIcon.svg": "/portfolio-v3/static/media/LinkedInNothingIcon.8f8eb9b23973eec0f5c3be68665fd314.svg",
     "main.11e57718.css.map": "/portfolio-v3/static/css/main.11e57718.css.map",
-    "main.f6e5fbed.js.map": "/portfolio-v3/static/js/main.f6e5fbed.js.map"
+    "main.c7c8170f.js.map": "/portfolio-v3/static/js/main.c7c8170f.js.map"
   },
   "entrypoints": [
     "static/css/main.11e57718.css",
-    "static/js/main.f6e5fbed.js"
+    "static/js/main.c7c8170f.js"
   ]
 }
