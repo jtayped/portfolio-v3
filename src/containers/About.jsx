@@ -38,7 +38,7 @@ const About = () => {
               href="https://github.com/jtayped"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex gap-3 items-center px-3 py-1.5 rounded-lg bg-black text-white w-min hover:rounded hover:brightness-95 transition-all duration-200 mt-2"
+              className="flex gap-3 items-center px-3 py-1.5 rounded bg-black text-white w-min hover:scale-[98%] hover:brightness-95 transition-all duration-200 mt-2"
             >
               <BsGithub size={18} />
               <p className="text-sm">GitHub</p>
