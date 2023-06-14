@@ -1,6 +1,5 @@
 // React Util
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // JSX Elements
 import { Header } from "./containers";
@@ -8,12 +7,10 @@ import { Home } from "./pages";
 
 function App() {
   return (
-    <BrowserRouter>
+    <div>
       <Header />
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-      </Routes>
-    </BrowserRouter>
+      <Home />
+    </div>
   );
 }
 
