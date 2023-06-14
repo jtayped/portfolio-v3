@@ -17,7 +17,6 @@ const Header = () => {
   const [isOpen, setOpen] = useState(true);
 
   function toggleSideBar() {
-    console.log("aaa");
     setOpen(!isOpen);
   }
 
