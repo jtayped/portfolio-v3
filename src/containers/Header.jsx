@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 
 // Images
-import Logo from "../assets/logo.svg";
+import Logo from "../assets/logo.webp";
 
 // Constants
 import { pages } from "../constants/Header";
