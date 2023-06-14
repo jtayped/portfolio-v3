@@ -52,7 +52,7 @@ const Hero = () => {
               }}
             >
               {" "}
-              <h2 className="text-md sm:text-2xl xl:text-4xl">
+              <h2 className="text-md sm:text-2xl xl:text-3xl">
                 {section.title}
               </h2>
               <p className="text-sm md:flex hidden">{section.description}</p>
