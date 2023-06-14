@@ -27,7 +27,7 @@ const Contact = () => {
     <section id="contact">
       <div className="flex flex-col items-center justify-center gap-4 border-b-[1px] border-black text-black p-[25px] lg:p-[50px] relative">
         <h2 className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 shadow-lg px-4 py-2 bg-black text-white text-3xl">
-          Contact Me
+          Contact Us
         </h2>
         <form
           onSubmit={(e) => sendMessage(e, firstName, lastName, email, message)}
