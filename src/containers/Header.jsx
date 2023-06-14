@@ -14,7 +14,7 @@ import { pages } from "../constants/Header";
 const Header = () => {
   return (
     <header className="sticky top-0 w-full flex justify-between bg-slate-100 border-b-[1px] border-black font-poppins">
-      <Link to="/" className="px-6 py-4 border-r-[1px] border-black">
+      <Link to="/" className="px-6 py-2 border-r-[1px] border-black">
         <img className="h-10" src={Logo} alt="Logo" />
       </Link>
 
@@ -23,7 +23,7 @@ const Header = () => {
           <a
             key={index}
             href={page.link}
-            className="h-full px-6 py-4 border-l-[1px] border-black flex items-center hover:bg-black hover:text-white transition-all duration-200"
+            className="h-full px-6 py-2 border-l-[1px] border-black flex items-center hover:bg-black hover:text-white transition-all duration-200"
           >
             {page.title.toUpperCase()}
           </a>
