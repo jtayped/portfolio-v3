@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const Input = ({ placeholder, type, setFunction }) => {
   return (
-    <div className="border-l-[1px] border-t-[1px] border-black p-4">
+    <div className="border-l-[1px] border-t-[1px] border-black p-3">
       <input
         type={type}
         placeholder={placeholder}
@@ -29,7 +29,7 @@ const Contact = () => {
         <h2 className="text-4xl">Contact Me</h2>
         <form
           onSubmit={(e) => sendMessage(e, firstName, lastName, email, message)}
-          className="flex flex-col max-w-[750px]"
+          className="flex flex-col max-w-[400px]"
         >
           <div className="grid grid-cols-2 border-r-[1px] border-black">
             <Input
@@ -52,11 +52,11 @@ const Contact = () => {
             rows="10"
             placeholder="Message"
             onChange={(e) => setMessage(e.target.value)}
-            className="border-[1px] border-black p-4 bg-transparent outline-none placeholder:text-black/60 placeholder:text-lg text-lg"
+            className="border-[1px] border-black p-3 bg-transparent outline-none placeholder:text-black/60 placeholder:text-lg text-lg"
           ></textarea>
           <button
             type="submit"
-            className="border-black border-[1px] p-4 text-lg bg-black text-white transition-colors duration-150"
+            className="border-black border-x-[1px] border-b-[1px] p-3 text-lg bg-red-600 hover:bg-red-700 text-white transition-colors duration-150"
           >
             Submit
           </button>
