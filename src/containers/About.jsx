@@ -7,6 +7,9 @@ import { about } from "../constants/Home";
 // Images
 import MockUp from "../assets/about/mockup.png";
 
+// Icons
+import { BsGithub } from "react-icons/bs";
+
 // Animations
 import { motion } from "framer-motion";
 
@@ -31,6 +34,15 @@ const About = () => {
           >
             <h2 className="text-4xl">{about.title}</h2>
             <p>{about.description}</p>
+            <a
+              href="https://github.com/jtayped"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex gap-3 items-center px-3 py-1.5 rounded-lg bg-black text-white w-min hover:rounded hover:brightness-95 transition-all duration-200 mt-2"
+            >
+              <BsGithub size={18} />
+              <p className="text-sm">GitHub</p>
+            </a>
           </motion.div>
           <motion.img
             initial={{ x: 50, opacity: 0 }}
