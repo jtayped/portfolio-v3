@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 // Icons
-import { FiMenu } from "react-icons/fi";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 // Images
 import Logo from "../assets/logo.svg";
@@ -31,7 +31,7 @@ const Header = () => {
       </nav>
 
       <button className="p-4 border-l-[1px] border-black sm:hidden">
-        <FiMenu size={30} />
+        <RxHamburgerMenu size={30} />
       </button>
     </header>
   );
