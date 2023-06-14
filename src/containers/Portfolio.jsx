@@ -33,6 +33,8 @@ const Portfolio = () => {
                   </p>
                   <a
                     href={piece.link}
+                    target="_blank"
+                    rel="noreferrer"
                     className="sm:rounded border-black border-[1px] sm:w-min px-2 text-lg mt-2 flex items-center justify-center gap-2 hover:bg-black hover:text-white transition-colors duration-150"
                   >
                     <MdOutlineOpenInNew />
