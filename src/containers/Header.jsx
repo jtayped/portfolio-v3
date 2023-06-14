@@ -13,7 +13,7 @@ import { pages } from "../constants/Header";
 
 const Header = () => {
   return (
-    <header className="sticky top-0 w-full flex justify-between bg-slate-100 border-b-[1px] border-black font-poppins">
+    <header className="sticky top-0 w-full z-10 flex justify-between bg-slate-100 border-b-[1px] border-black font-poppins">
       <Link to="/" className="px-6 py-2 border-r-[1px] border-black">
         <img className="h-10" src={Logo} alt="Logo" />
       </Link>
