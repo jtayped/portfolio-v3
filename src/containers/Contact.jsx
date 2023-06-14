@@ -79,7 +79,10 @@ const Contact = () => {
             <p className="">{contact.description}</p>
             <ul className="grid grid-cols-2 gap-2 w-full h-[200px] mt-2">
               <li className="border-[1px] rounded-lg shadow">
-                <a href={contact.socials.linkedIn.link}>
+                <a
+                  href={contact.socials.linkedIn.link}
+                  className="flex flex-col justify-center"
+                >
                   <div className="relative">
                     <img
                       src={LinkedInBanner}
@@ -123,7 +126,7 @@ const Contact = () => {
                       </div>
                     </div>
                   </div>
-                  <button className="px-2 py-0.5 bg-blue-600 text-white rounded-full text-xs ml-3">
+                  <button className="px-2 py-0.5 bg-blue-600 text-white rounded-full text-xs ml-3 w-min">
                     Visit
                   </button>
                 </a>
