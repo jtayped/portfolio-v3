@@ -36,7 +36,7 @@ const About = () => {
             <p>{about.description}</p>
             <a
               href="#contact"
-              className="rounded-sm w-min px-2 py-1 mt-2 flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white transition-colors duration-150"
+              className="rounded-sm shadow-lg w-min px-2 py-1 mt-2 flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white transition-colors duration-150"
             >
               <FiSend />
               Contact

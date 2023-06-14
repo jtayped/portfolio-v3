@@ -31,7 +31,7 @@ const Hero = () => {
         >
           <h1 className="highlight text-6xl xl:text-8xl w-min">{hero.title}</h1>
           <p className="text-md sm:text-lg xl:w-[600px]">{hero.description}</p>
-          <button className="rounded-sm w-min px-2 py-1 text-lg mt-2 flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white transition-colors duration-150 outline-none">
+          <button className="shadow-lg rounded-sm w-min px-2 py-1 text-lg mt-2 flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white transition-colors duration-150 outline-none">
             <FiMousePointer size={18} />
             Button
           </button>
