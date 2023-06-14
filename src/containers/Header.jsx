@@ -14,7 +14,7 @@ import { pages } from "../constants/Header";
 import SideBar from "./SideBar";
 
 const Header = () => {
-  const [isOpen, setOpen] = useState(true);
+  const [isOpen, setOpen] = useState(false);
 
   function toggleSideBar() {
     setOpen(!isOpen);

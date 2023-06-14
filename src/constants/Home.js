@@ -37,7 +37,7 @@ export const hero = {
 };
 
 export const about = {
-  title: "About Us",
+  title: "About Me",
   description:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ratione est consequatur ab veritatis nesciunt labore ea omnis aliquid in vel dolorum autem laboriosam temporibus amet fugiat quis adipisci numquam?",
 };
@@ -107,7 +107,7 @@ export const portfolio = {
 };
 
 export const contact = {
-  title: "Contact Us",
+  title: "Contact Me",
   description:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ratione est consequatur ab veritatis nesciunt labore ea omnis aliquid in vel dolorum autem laboriosam temporibus amet fugiat quis adipisci numquam?",
   socials: {
