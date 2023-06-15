@@ -5,7 +5,7 @@ import React from "react";
 import { Hero, About, Testimonials, Portfolio, Contact } from "../containers";
 
 // CSS
-import "./test.css";
+import "./anchorSpacing.css";
 
 const Home = () => {
   return (
