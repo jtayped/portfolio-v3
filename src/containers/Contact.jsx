@@ -47,7 +47,7 @@ const Contact = () => {
   return (
     <section id="contact">
       <div className="flex flex-col items-center justify-center gap-4 border-b-[1px] border-black text-black p-[25px] lg:p-[50px]">
-        <div className="flex flex-col-reverse sm:flex-row  justify-center gap-5">
+        <div className="flex flex-col-reverse sm:flex-row justify-center gap-5">
           <motion.form
             onSubmit={(e) =>
               sendMessage(e, firstName, lastName, email, message)
