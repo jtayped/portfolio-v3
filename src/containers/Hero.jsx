@@ -30,7 +30,7 @@ const Hero = () => {
           }}
         >
           <h1 className="highlight text-6xl xl:text-8xl w-min">{hero.title}</h1>
-          <p className="text-md sm:text-lg xl:w-[600px]">{hero.description}</p>
+          <p className="text-md sm:text-lg lg:w-[600px]">{hero.description}</p>
           <a
             href="#contact"
             className="rounded-sm shadow-lg w-min px-2 py-1 mt-2 flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white transition-colors duration-150"
