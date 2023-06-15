@@ -1,6 +1,7 @@
 // React Util
 import React from "react";
 import { useInView } from "react-intersection-observer";
+
 // Constants
 import { about } from "../constants/Home";
 
