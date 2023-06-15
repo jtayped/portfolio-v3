@@ -101,7 +101,7 @@ export const portfolio = {
       description:
         "My old portfolio showcases a collection of black and white designs with a touch of professional elegance. Each piece tells a unique story.",
       image: OldPortfolio,
-      link: "https://github.com/jtayped/jtayped.github.io",
+      link: "https://github.com/jtayped/old-portfolio",
     },
   ],
 };
