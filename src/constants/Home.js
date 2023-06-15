@@ -19,19 +19,19 @@ import PFP from "../assets/contact/PFP.webp";
 export const hero = {
   title: "Welcome",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus deleniti quas minus. Consequuntur natus exercitationem aut omnis nulla sit, voluptas fuga quibusdam doloribus minima! Magni cum quis ex impedit porro.",
+    "Welcome to my web development portfolio, where I specialize in creating visually stunning and user-friendly websites. With meticulous attention to detail and expertise in React, HTML, CSS, and JS, I bring a touch of sophistication to your online presence. Let's embark on a journey of digital excellence and create a captivating web experience together.",
   secondarySections: [
     {
       title: "Boost Your Business Online",
       image: BG1,
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus deleniti quas minus. Consequuntur natus exercitationem aut omnis nulla sit, voluptas fuga quibusdam doloribus minima! Magni cum quis ex impedit porro.",
+        "Enhance your online presence and boost your business with my custom web solutions. By creating visually appealing and user-friendly websites, I help you attract and engage your target audience, leading to increased brand visibility and higher conversion rates.",
     },
     {
       title: "Unleash the Potential of the Web",
       image: BG2,
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus deleniti quas minus. Consequuntur natus exercitationem aut omnis nulla sit, voluptas fuga quibusdam doloribus minima! Magni cum quis ex impedit porro.",
+        "Discover the untapped possibilities of the web. Maximize your reach, engage your audience, and drive growth with customized web solutions that leverage modern technologies and industry best practices.",
     },
   ],
 };
@@ -39,7 +39,7 @@ export const hero = {
 export const about = {
   title: "About Me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ratione est consequatur ab veritatis nesciunt labore ea omnis aliquid in vel dolorum autem laboriosam temporibus amet fugiat quis adipisci numquam?",
+    "I'm Joel Taylor Pedrós, a 17-year-old web developer with a passion for creating modern and minimalistic designs. With 3 years of experience in web development, I specialize in React JS, Tailwind CSS, and Firebase. My skills also include HTML, CSS, JS, Python, Java, and C#. Explore my GitHub profile for more projects. Let's bring your ideas to life!",
 };
 
 export const testimonials = [
@@ -107,9 +107,10 @@ export const portfolio = {
 };
 
 export const contact = {
-  title: "Contact Me",
+  title: "Looking to get in touch? ",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ratione est consequatur ab veritatis nesciunt labore ea omnis aliquid in vel dolorum autem laboriosam temporibus amet fugiat quis adipisci numquam?",
+    "You can reach me through Instagram or LinkedIn. feel free to connect with me on Instagram or visit my LinkedIn profile. Alternatively, you can fill out the form for a direct approach, and I'll respond promptly. I look forward to discussing how we can collaborate on your web development needs!",
+  emailLink: "mailto:jtayped@gmail.com",
   socials: {
     instagram: {
       link: "https://www.instagram.com/jtayped_/",
