@@ -6,7 +6,7 @@ import { useInView } from "react-intersection-observer";
 import { about } from "../constants/Home";
 
 // Images
-import MockUp from "../assets/about/mockup.png";
+import MockUp from "../assets/about/mockup.webp";
 
 // Icons
 import { BsGithub } from "react-icons/bs";
