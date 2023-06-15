@@ -1,5 +1,6 @@
 // React Util
 import React, { useState } from "react";
+import { useInView } from "react-intersection-observer";
 
 // Constants
 import { contact } from "../constants/Home";
@@ -10,6 +11,9 @@ import { BsFillPersonPlusFill } from "react-icons/bs";
 // Images
 import LinkedInBanner from "../assets/contact/LinkedInBackground.svg";
 import LinkedInNothing from "../assets/contact/LinkedInNothingIcon.svg";
+
+// Animations
+import { motion } from "framer-motion";
 
 const Input = ({ placeholder, type, setFunction }) => {
   return (
@@ -30,6 +34,11 @@ const Contact = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
+  const { ref, inView } = useInView({
+    threshold: 0.6,
+    triggerOnce: true,
+  });
+
   function sendMessage(e, firstName, lastName, email, message) {
     e.preventDefault();
   }
@@ -38,11 +47,14 @@ const Contact = () => {
     <section id="contact">
       <div className="flex flex-col items-center justify-center gap-4 border-b-[1px] border-black text-black p-[25px] lg:p-[50px]">
         <div className="flex flex-col-reverse sm:flex-row  justify-center gap-5">
-          <form
+          <motion.form
             onSubmit={(e) =>
               sendMessage(e, firstName, lastName, email, message)
             }
             className="flex flex-col w-full sm:max-w-[400px]"
+            initial={{ opacity: 0 }}
+            animate={inView ? { opacity: 1 } : {}}
+            transition={{ delay: 0.4 }}
           >
             <div className="grid grid-cols-2 border-r-[1px] border-black">
               <Input
@@ -73,12 +85,22 @@ const Contact = () => {
             >
               Submit
             </button>
-          </form>
-          <div className="max-w-[400px]">
+          </motion.form>
+          <motion.div
+            className="max-w-[400px]"
+            initial={{ opacity: 0 }}
+            animate={inView ? { opacity: 1 } : {}}
+            ref={ref}
+          >
             <h2 className="text-4xl">{contact.title}</h2>
             <p className="">{contact.description}</p>
             <ul className="grid grid-cols-2 gap-2 w-full h-[200px] mt-2">
-              <li className="border-[1px] rounded-lg shadow">
+              <motion.li
+                className="border-[1px] rounded-lg shadow"
+                initial={{ opacity: 0 }}
+                animate={inView ? { opacity: 1 } : {}}
+                transition={{ delay: 0.1 }}
+              >
                 <a
                   href={contact.socials.linkedIn.link}
                   className="flex flex-col justify-center"
@@ -130,8 +152,13 @@ const Contact = () => {
                     Visit
                   </button>
                 </a>
-              </li>
-              <li className="rounded-lg shadow border-[1px] bg-black">
+              </motion.li>
+              <motion.li
+                className="rounded-lg shadow border-[1px] bg-black"
+                initial={{ opacity: 0 }}
+                animate={inView ? { opacity: 1 } : {}}
+                transition={{ delay: 0.25 }}
+              >
                 <a
                   href={contact.socials.instagram.link}
                   className="text-white flex flex-col gap-3 p-1 h-full justify-between"
@@ -185,9 +212,9 @@ const Contact = () => {
                     Visit
                   </button>
                 </a>
-              </li>
+              </motion.li>
             </ul>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
