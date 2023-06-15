@@ -85,7 +85,7 @@ export const portfolio = {
     {
       title: "Portfolio",
       description:
-        "I recently created a solitaire game using Pygame, and I'm really pleased with the final product. I noticed that many of the solitaire games available online looked outdated and unappealing, so I decided to take matters into my own hands and recreate it as a side project. The end result is a polished and visually appealing game that I'm proud to share. ",
+        "Welcome to my new portfolio, where black and white merge in a symphony of professional elegance. Discover captivating designs that leave a lasting impression, crafted with meticulous attention to detail",
       image: Portfolio,
       link: "/",
     },
@@ -99,7 +99,7 @@ export const portfolio = {
     {
       title: "Old Portfolio",
       description:
-        "This portfolio is my latest piece, and I'm really proud of how it turned out. I decided to go for a black and white theme, which I think looks really sleek and professional. I focused a lot on the aesthetics and user interface, making sure that it's easy to navigate and visually appealing.",
+        "My old portfolio showcases a collection of black and white designs with a touch of professional elegance. Each piece tells a unique story.",
       image: OldPortfolio,
       link: "https://github.com/jtayped/jtayped.github.io",
     },
