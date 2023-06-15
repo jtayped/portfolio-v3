@@ -9,7 +9,7 @@ import "./test.css";
 
 const Home = () => {
   return (
-    <div className="bg-slate-100 font-poppins">
+    <div className="bg-slate-100 font-poppins overflow-x-hidden">
       <Hero />
       <About />
       <Testimonials />
