@@ -5,11 +5,11 @@ import React from "react";
 import { Hero, About, Testimonials, Portfolio, Contact } from "../containers";
 
 // CSS
-import "./test.css";
+import "./anchorSpacing.css";
 
 const Home = () => {
   return (
-    <div className="bg-slate-100 font-poppins">
+    <div className="bg-slate-100 font-poppins overflow-x-hidden">
       <Hero />
       <About />
       <Testimonials />

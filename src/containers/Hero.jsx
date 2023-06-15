@@ -54,7 +54,6 @@ const Hero = () => {
                 delay: index * (animationTime / hero.secondarySections.length),
               }}
             >
-              {" "}
               <h2 className="text-md sm:text-2xl xl:text-3xl">
                 {section.title}
               </h2>
