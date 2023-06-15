@@ -95,7 +95,7 @@ const Contact = () => {
           >
             <h2 className="text-4xl">{contact.title}</h2>
             <p className="">{contact.description}</p>
-            <a href={contact.emailLink}>
+            <a href={contact.emailLink} target="_blank" rel="noreferrer">
               <button className="flex items-center justify-center gap-2 w-full bg-black text-white rounded mt-2 py-1">
                 <BiMailSend size={23} />
                 Email
