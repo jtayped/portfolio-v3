@@ -41,6 +41,7 @@ const Header = () => {
       <button
         onClick={() => toggleSideBar()}
         className="p-4 border-l-[1px] border-black sm:hidden"
+        aria-label="Toggle Navigation Menu"
       >
         <RxHamburgerMenu size={30} />
       </button>
