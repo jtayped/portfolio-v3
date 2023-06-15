@@ -109,7 +109,7 @@ export const portfolio = {
 export const contact = {
   title: "Looking to get in touch? ",
   description:
-    "You can reach me through Instagram or LinkedIn. feel free to connect with me on Instagram or visit my LinkedIn profile. Alternatively, you can fill out the form for a direct approach, and I'll respond promptly. I look forward to discussing how we can collaborate on your web development needs!",
+    "You can reach me through Instagram, LinkedIn or Email; feel free to connect with me there. Alternatively, you can fill out the form for a direct approach, and I'll respond promptly. I look forward to discussing how we can collaborate on your web development needs!",
   emailLink: "mailto:jtayped@gmail.com",
   socials: {
     instagram: {
