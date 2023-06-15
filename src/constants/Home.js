@@ -1,6 +1,6 @@
 // Hero
-import BG1 from "../assets/hero/bg1.jpg";
-import BG2 from "../assets/hero/bg2.jpg";
+import BG1 from "../assets/hero/bg1.webp";
+import BG2 from "../assets/hero/bg2.webp";
 
 // Testimonials
 import { Juan, Vithanco, Walter } from "../assets/testimonials";
