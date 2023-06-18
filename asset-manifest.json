@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/static/css/main.88d8d53e.css",
-    "main.js": "/static/js/main.194fe7d8.js",
+    "main.js": "/static/js/main.15f18b24.js",
     "static/media/bg1.webp": "/static/media/bg1.0ea25ab121a928f3bf53.webp",
     "static/media/bg2.webp": "/static/media/bg2.66cc7ca3f3f9359fbff2.webp",
     "static/media/PFP.webp": "/static/media/PFP.84df4fae0ec4c79cac15.webp",
-    "static/media/mockup.webp": "/static/media/mockup.e7f398e388ea996508d6.webp",
+    "static/media/mockup.webp": "/static/media/mockup.6ee9f16c780f26ed6de3.webp",
+    "static/media/Portfolio.webp": "/static/media/Portfolio.da45905b53ded24eb0cd.webp",
     "static/media/Walter.webp": "/static/media/Walter.00b437b2bd5161f56590.webp",
-    "static/media/Portfolio.webp": "/static/media/Portfolio.3d1853efaacb21675320.webp",
+    "static/media/LinkedInBackground.svg": "/static/media/LinkedInBackground.a6324be5466870343c3d25cbb03099b0.svg",
     "static/media/GPTArticles.webp": "/static/media/GPTArticles.5ea203e5c72baba0ea44.webp",
-    "static/media/LinkedInBackground.svg": "/static/media/LinkedInBackground.831a7681b085f971a3f216eac0bb4783.svg",
-    "static/media/OldPortfolio.webp": "/static/media/OldPortfolio.131578dfe9726c918ca4.webp",
+    "static/media/OldPortfolio.webp": "/static/media/OldPortfolio.2011f8d0ae5a44c03bfb.webp",
     "static/media/Logitech.webp": "/static/media/Logitech.aada105eb8b6ebdab26e.webp",
     "static/media/logo.webp": "/static/media/logo.64664c9175490e886894.webp",
     "static/media/Vithanco.webp": "/static/media/Vithanco.2121c9dcaa413fe8941e.webp",
     "index.html": "/index.html",
     "static/media/Juan.webp": "/static/media/Juan.bd8185753ef6dfda43fd.webp",
-    "static/media/LinkedInNothingIcon.svg": "/static/media/LinkedInNothingIcon.d395b5ded9962b45137d0ff71f806585.svg",
+    "static/media/LinkedInNothingIcon.svg": "/static/media/LinkedInNothingIcon.8f8eb9b23973eec0f5c3be68665fd314.svg",
     "main.88d8d53e.css.map": "/static/css/main.88d8d53e.css.map",
-    "main.194fe7d8.js.map": "/static/js/main.194fe7d8.js.map"
+    "main.15f18b24.js.map": "/static/js/main.15f18b24.js.map"
   },
   "entrypoints": [
     "static/css/main.88d8d53e.css",
-    "static/js/main.194fe7d8.js"
+    "static/js/main.15f18b24.js"
   ]
 }
