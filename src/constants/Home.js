@@ -8,7 +8,7 @@ import { Juan, Vithanco, Walter } from "../assets/testimonials";
 // Portfolio
 import {
   GPTArticles,
-  Solitaire,
+  Logitech,
   Portfolio,
   OldPortfolio,
 } from "../assets/portfolio";
@@ -80,7 +80,7 @@ export const portfolio = {
       description:
         "Welcome to GPT Articles, where laughter meets knowledge! Brace yourself for a hilarious ride through AI-generated content. Sit back, relax, and prepare to be entertained as our AI-powered humor takes over the realm of information. Get ready to ROFL your way through our quirky articles!",
       image: GPTArticles,
-      link: "https://joeltaylor.business/gpt-articles/",
+      link: "/gpt-articles",
     },
     {
       title: "Portfolio",
@@ -90,11 +90,11 @@ export const portfolio = {
       link: "/",
     },
     {
-      title: "Solitaire",
+      title: "Logitech M170",
       description:
-        "I recently created a solitaire game using Pygame, and I'm really pleased with the final product. I noticed that many of the solitaire games available online looked outdated and unappealing, so I decided to take matters into my own hands and recreate it as a side project. The end result is a polished and visually appealing game that I'm proud to share. ",
-      image: Solitaire,
-      link: "https://github.com/jtayped/SolitaireV2",
+        "Indulge in the tantalizing allure of Logitech's M170 Wireless Mouse! Experience a humorous, seductive journey into digital hedonism with its stimulating buttons and captivating design. Spice up your office life today!",
+      image: Logitech,
+      link: "/logitech-mouse",
     },
     {
       title: "Old Portfolio",
