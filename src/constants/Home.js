@@ -82,7 +82,7 @@ export const portfolio = {
       description:
         "Explore my web development prowess on a Bitcoin-themed site. Using an API, I provide up-to-date information on the cryptocurrency, keeping you informed on the latest market trends.",
       image: Bitcoin,
-      link: "https://github.com/jtayped/old-portfolio",
+      link: "/bitcoin",
     },
     {
       title: "GPT Articles",
