@@ -6,12 +6,7 @@ import BG2 from "../assets/hero/bg2.webp";
 import { Juan, Vithanco, Walter } from "../assets/testimonials";
 
 // Portfolio
-import {
-  GPTArticles,
-  Logitech,
-  Portfolio,
-  OldPortfolio,
-} from "../assets/portfolio";
+import { GPTArticles, Logitech, Portfolio, Bitcoin } from "../assets/portfolio";
 
 // Contact
 import PFP from "../assets/contact/PFP.webp";
@@ -76,6 +71,20 @@ export const portfolio = {
   title: "Portfolio",
   pieces: [
     {
+      title: "Logitech M170",
+      description:
+        "Indulge in the tantalizing allure of Logitech's M170 Wireless Mouse! Experience a humorous, seductive journey into digital hedonism with its stimulating buttons and captivating design. Spice up your office life today!",
+      image: Logitech,
+      link: "/logitech-mouse",
+    },
+    {
+      title: "Bitcoin Website",
+      description:
+        "Explore my web development prowess on a Bitcoin-themed site. Using an API, I provide up-to-date information on the cryptocurrency, keeping you informed on the latest market trends.",
+      image: Bitcoin,
+      link: "https://github.com/jtayped/old-portfolio",
+    },
+    {
       title: "GPT Articles",
       description:
         "Welcome to GPT Articles, where laughter meets knowledge! Brace yourself for a hilarious ride through AI-generated content. Sit back, relax, and prepare to be entertained as our AI-powered humor takes over the realm of information. Get ready to ROFL your way through our quirky articles!",
@@ -88,20 +97,6 @@ export const portfolio = {
         "Welcome to my new portfolio, where black and white merge in a symphony of professional elegance. Discover captivating designs that leave a lasting impression, crafted with meticulous attention to detail",
       image: Portfolio,
       link: "/",
-    },
-    {
-      title: "Logitech M170",
-      description:
-        "Indulge in the tantalizing allure of Logitech's M170 Wireless Mouse! Experience a humorous, seductive journey into digital hedonism with its stimulating buttons and captivating design. Spice up your office life today!",
-      image: Logitech,
-      link: "/logitech-mouse",
-    },
-    {
-      title: "Old Portfolio",
-      description:
-        "My old portfolio showcases a collection of black and white designs with a touch of professional elegance. Each piece tells a unique story.",
-      image: OldPortfolio,
-      link: "https://github.com/jtayped/old-portfolio",
     },
   ],
 };
