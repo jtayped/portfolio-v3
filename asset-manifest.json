@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b36bf8aa.css",
-    "main.js": "/static/js/main.e2ff37b2.js",
+    "main.js": "/static/js/main.d67031ea.js",
     "static/media/Bitcoin.webp": "/static/media/Bitcoin.92e572804713dd7ee1f6.webp",
     "static/media/bg1.webp": "/static/media/bg1.0ea25ab121a928f3bf53.webp",
     "static/media/SpotifyConcept.webp": "/static/media/SpotifyConcept.8a761132fa8a0ab2c0a3.webp",
@@ -18,10 +18,10 @@
     "static/media/Juan.webp": "/static/media/Juan.bd8185753ef6dfda43fd.webp",
     "static/media/LinkedInNothingIcon.svg": "/static/media/LinkedInNothingIcon.8f8eb9b23973eec0f5c3be68665fd314.svg",
     "main.b36bf8aa.css.map": "/static/css/main.b36bf8aa.css.map",
-    "main.e2ff37b2.js.map": "/static/js/main.e2ff37b2.js.map"
+    "main.d67031ea.js.map": "/static/js/main.d67031ea.js.map"
   },
   "entrypoints": [
     "static/css/main.b36bf8aa.css",
-    "static/js/main.e2ff37b2.js"
+    "static/js/main.d67031ea.js"
   ]
 }
