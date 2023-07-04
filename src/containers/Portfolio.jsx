@@ -24,28 +24,40 @@ const Portfolio = () => {
                 key={index}
                 initial={{ opacity: 0, y: 25 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                className="flex flex-col sm:flex-row items-center sm:items-start sm:gap-2 sm:h-[225px] border-[1px] border-black sm:border-[0px]"
+                className="flex flex-col justify-between sm:flex-row sm:items-start sm:gap-2 border-[1px] border-black sm:border-[0px]"
               >
-                <img
-                  src={piece.image}
-                  className="w-full h-[150px] object-cover sm:w-[300px] sm:h-full sm:rounded border-b-[1px] sm:border-[1px] border-black"
-                  alt="Project"
-                />
-                <div className="p-2 sm:p-0 sm:pl-3 flex flex-col">
-                  <h3 className="text-2xl">{piece.title}</h3>
-                  <p className="line-clamp-5 sm:line-clamp-3">
-                    {piece.description}
-                  </p>
-                  <a
-                    href={piece.link}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="sm:rounded border-black border-[1px] sm:w-min px-2 text-lg mt-2 flex items-center justify-center gap-2 hover:bg-black hover:text-white transition-colors duration-150"
-                  >
-                    <MdOutlineOpenInNew />
-                    Visit
-                  </a>
+                <div className="flex flex-col sm:flex-row">
+                  <img
+                    src={piece.image}
+                    className="w-full h-[150px] object-cover sm:w-[300px] sm:h-full sm:rounded border-b-[1px] sm:border-[1px] border-black"
+                    alt="Project"
+                  />
+                  <div className="p-2 sm:p-0 sm:pl-3 flex flex-col">
+                    <h3 className="text-2xl">{piece.title}</h3>
+                    <p className="line-clamp-5 sm:line-clamp-3">
+                      {piece.description}
+                    </p>
+                    <a
+                      href={piece.link}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="sm:rounded hidden sm:flex border-black border-[1px] sm:w-min px-2 text-lg mt-2 items-center justify-center gap-2 hover:bg-black hover:text-white transition-colors duration-150"
+                    >
+                      <MdOutlineOpenInNew />
+                      Visit
+                    </a>
+                  </div>
                 </div>
+
+                <a
+                  href={piece.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="sm:rounded sm:hidden border-black border-t-[1px] sm:w-min px-2 text-lg mt-2 flex items-center justify-center gap-2 hover:bg-black hover:text-white transition-colors duration-150"
+                >
+                  <MdOutlineOpenInNew />
+                  Visit
+                </a>
               </motion.li>
             ))}
           </ul>
