@@ -52,7 +52,7 @@ const Contact = () => {
             onSubmit={(e) =>
               sendMessage(e, firstName, lastName, email, message)
             }
-            className="flex flex-col w-full sm:max-w-[400px]"
+            className="flex flex-col w-full max-w-[400px]"
             initial={{ opacity: 0 }}
             animate={inView ? { opacity: 1 } : {}}
             transition={{ delay: 0.4 }}
