@@ -94,7 +94,7 @@ export const portfolio = {
       description:
         "Experience the ultimate music discovery with my visually stunning Spotify Concept website. Connect, authorize, and explore your favorite tracks and playlists effortlessly.",
       image: SpotifyConcept,
-      link: "/",
+      link: "/spotify-concept",
     },
     {
       title: "GPT Articles",
