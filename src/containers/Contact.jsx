@@ -214,7 +214,7 @@ const Contact = () => {
                       This user has no posts for the moment.
                     </p>
                   </div>
-                  <button className="w-full bg-[#0095F6] rounded-md flex items-center gap-2 justify-center text-sm">
+                  <button className="w-full bg-[#0095F6] rounded flex items-center gap-2 justify-center text-sm">
                     <BsFillPersonPlusFill />
                     Visit
                   </button>
